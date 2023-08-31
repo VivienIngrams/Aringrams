@@ -1,4 +1,9 @@
-import Link from "../components/Link";
+import Link from "next/link";
+
+// import cv from "cv-alex.pdf"
+// const openCV = () => {
+//   window.open(cv, '_blank')
+// }
 
 export default function Home() {
   return (
@@ -32,7 +37,7 @@ export default function Home() {
             </Link>
             <button
               className="m-10 rounded border-2 border-yellow-600 bg-neutral-100 px-4 py-2 font-khand font-bold  text-black  "
-              onClick={openCV}
+              // onClick={openCV}
             >
               Resume
             </button>
