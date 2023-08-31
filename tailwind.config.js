@@ -12,6 +12,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        playfair: ['Playfair Display Variable', ...defaultTheme.fontFamily.sans],
+        khand: ['Khand', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: [],
